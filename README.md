@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/ozbot.svg" alt="OzBot, my robot, cycling through its moods" width="560">
+<img src="ozbot.svg" alt="OzBot, my robot, cycling through its moods" width="560">
 
 ```text
    ┌──────────────────────────────────────────┐
