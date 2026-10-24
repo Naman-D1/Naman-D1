@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="OzBot, an animated robot face cycling through expressions">
+<style>
+.st{opacity:0}
+@keyframes s0{0%,19.99%{opacity:1}20.00%,100%{opacity:0}}
+@keyframes s1{0%,19.99%{opacity:0}20.00%,39.99%{opacity:1}40.00%,100%{opacity:0}}
+@keyframes s2{0%,39.99%{opacity:0}40.00%,59.99%{opacity:1}60.00%,100%{opacity:0}}
+@keyframes s3{0%,59.99%{opacity:0}60.00%,79.99%{opacity:1}80.00%,100%{opacity:0}}
+@keyframes s4{0%,79.99%{opacity:0}80.00%,99.99%{opacity:1}100.00%,100%{opacity:0}}
+.bl{transform-origin:360px 175px;animation:blink 4s infinite}
+@keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.08)}}
+@media (prefers-reduced-motion: reduce){.st,.bl{animation:none!important} .st:first-of-type{opacity:1}}
+</style>
+<rect width="720" height="400" rx="18" fill="#12202f"/>
+<g class="st" style="animation:s0 15s infinite"><rect width="720" height="400" fill="#12202f"/><g class="bl"><circle cx="250" cy="170" r="42" fill="#78e6be"/><circle cx="250" cy="170" r="20" fill="#0e1520"/><circle cx="470" cy="170" r="42" fill="#78e6be"/><circle cx="470" cy="170" r="20" fill="#0e1520"/><path d="M270 250 Q360 330 450 250" stroke="#78e6be" stroke-width="14" fill="none" stroke-linecap="round"/></g><text x="360" y="372" text-anchor="middle" fill="#78e6be" font-family="monospace" font-size="22">&gt; HAPPY: VISITOR DETECTED... hi! :)</text></g>
+<g class="st" style="animation:s1 15s infinite"><rect width="720" height="400" fill="#12202f"/><g class="bl"><circle cx="250" cy="170" r="42" fill="#8cbeff"/><circle cx="250" cy="170" r="20" fill="#0e1520"/><circle cx="470" cy="170" r="42" fill="#8cbeff"/><circle cx="470" cy="170" r="20" fill="#0e1520"/><line x1="310" y1="275" x2="410" y2="275" stroke="#8cbeff" stroke-width="14" stroke-linecap="round"/></g><text x="360" y="372" text-anchor="middle" fill="#8cbeff" font-family="monospace" font-size="22">&gt; NEUTRAL: waiting for the owner to reply...</text></g>
+<g class="st" style="animation:s2 15s infinite"><rect width="720" height="400" fill="#0e2a1f"/><g class=""><path d="M205 190 Q250 130 295 190" stroke="#8cffaa" stroke-width="14" fill="none" stroke-linecap="round"/><path d="M425 190 Q470 130 515 190" stroke="#8cffaa" stroke-width="14" fill="none" stroke-linecap="round"/><path d="M265 245 Q360 345 455 245" stroke="#8cffaa" stroke-width="14" fill="none" stroke-linecap="round"/></g><text x="360" y="372" text-anchor="middle" fill="#8cffaa" font-family="monospace" font-size="22">&gt; ACCEPT: ACCESS GRANTED. it works, don't touch it.</text></g>
+<g class="st" style="animation:s3 15s infinite"><rect width="720" height="400" fill="#28161e"/><g class="bl"><circle cx="250" cy="175" r="42" fill="#ff96aa"/><circle cx="250" cy="175" r="20" fill="#0e1520"/><circle cx="470" cy="175" r="42" fill="#ff96aa"/><circle cx="470" cy="175" r="20" fill="#0e1520"/><path d="M290 305 Q360 245 430 305" stroke="#ff96aa" stroke-width="14" fill="none" stroke-linecap="round"/></g><text x="360" y="372" text-anchor="middle" fill="#ff96aa" font-family="monospace" font-size="22">&gt; DENIED: access denied. go touch grass.</text></g>
+<g class="st" style="animation:s4 15s infinite"><rect width="720" height="400" fill="#5a080c"/><g class="bl"><circle cx="250" cy="190" r="42" fill="#ffdcdc"/><circle cx="250" cy="190" r="20" fill="#0e1520"/><circle cx="470" cy="190" r="42" fill="#ffdcdc"/><circle cx="470" cy="190" r="20" fill="#0e1520"/><line x1="190" y1="110" x2="310" y2="145" stroke="#ffdcdc" stroke-width="14" stroke-linecap="round"/><line x1="530" y1="110" x2="410" y2="145" stroke="#ffdcdc" stroke-width="14" stroke-linecap="round"/><rect x="290" y="285" width="140" height="14" rx="7" fill="#ffdcdc"/></g><text x="360" y="372" text-anchor="middle" fill="#ffdcdc" font-family="monospace" font-size="22">&gt; ALARM: INTRUDER! INTRUDER! (it is just a bug)</text></g>
+<rect x="1" y="1" width="718" height="398" rx="18" fill="none" stroke="#2c4157" stroke-width="2"/>
+</svg>
