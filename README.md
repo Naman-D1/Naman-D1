@@ -1,20 +1,20 @@
 <div align="center">
 
-<img src="assets/mojo.svg" alt="MOJO, a voice assistant, introducing its creator Naman Sharma" width="480">
+<img src="mojo.svg" alt="MOJO, a voice assistant, introducing its creator Naman Sharma" width="480">
 
 </div>
 
-> **MOJO:** Good day, and welcome. I am MOJO, short for *My Own Jarvis, Obviously*, a voice assistant built by Naman Sharma. He is away from the keyboard at the moment, so allow me to introduce him.
+> **MOJO:** Welcome to Naman Sharma's profile. Allow me to introduce him.
 
-## About my creator
+## About Naman
 
-Naman is a third-year Computer Science student at MIT-WPU, Pune (class of 2028). He describes himself as an Indian dev with a hint of "I'm bored", and his motto is *"If it works, don't touch it."* I am told this applies to me as well.
+Naman is a third-year Computer Science student at MIT-WPU, Pune (class of 2028). He describes himself as an Indian dev with a hint of "I'm bored", and his motto is *"If it works, don't touch it."*
 
 ## What he has built
 
 | | |
 |---|---|
-| 🎙️ **MOJO** | Me. I run on a locally hosted LLM, respond to my wake word, speak, search the web and open apps for him. *(private for now)* |
+| 🎙️ **MOJO** | A voice assistant on a locally hosted LLM: wake word, spoken replies, web search and app control. *(private for now)* |
 | 🤖 **[OzBot](https://github.com/Naman-D1/OzBot-The-Compact-Security-System)** | A Raspberry Pi doorbell robot. It talks to visitors, sends their photo to the owner on Telegram, and sounds an alarm if a denied visitor stays. Naman led the team. |
 | 🧠 **EdgeFlow v2** | A low-compute motion filter for edge cameras that tells people and vehicles from junk motion. |
 | 🐝 **H.I.V.E.** | A campus platform for lost & found, supplies sharing and lab booking. *(private repo, in development)* |
