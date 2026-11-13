@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-label="MOJO, a holographic orb that idles, thinks and speaks">
+<defs>
+  <radialGradient id="ggold"><stop offset="0" stop-color="#ffd36b" stop-opacity=".55"/><stop offset=".6" stop-color="#ff9f1a" stop-opacity=".25"/><stop offset="1" stop-color="#ff9f1a" stop-opacity="0"/></radialGradient>
+  <radialGradient id="gblue"><stop offset="0" stop-color="#9fdcff" stop-opacity=".55"/><stop offset=".6" stop-color="#2aa8ff" stop-opacity=".25"/><stop offset="1" stop-color="#2aa8ff" stop-opacity="0"/></radialGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<style>
+.ball {transform:translate(360px,150px)}
+.wrap {animation:life 12s ease-in-out infinite}
+@keyframes life {
+  0%,33%{transform:scale(1)} 16%{transform:scale(1.04)}
+  41%{transform:scale(.92)} 50%{transform:scale(.88)} 58%{transform:scale(.92)}
+  66%{transform:scale(1)} 70%{transform:scale(1.12)} 74%{transform:scale(.97)} 78%{transform:scale(1.14)}
+  82%{transform:scale(.98)} 86%{transform:scale(1.1)} 90%{transform:scale(.98)} 94%{transform:scale(1.06)} 100%{transform:scale(1)} }
+.gold {animation:showg 12s infinite} .blue {animation:showb 12s infinite}
+@keyframes showg {0%,32%{opacity:1}36%,62%{opacity:0}66%,100%{opacity:1}}
+@keyframes showb {0%,32%{opacity:0}36%,62%{opacity:1}66%,100%{opacity:0}}
+.mer {transform-box:fill-box;transform-origin:center;animation:spin 3s linear infinite}
+.blue .mer {animation-duration:1.4s}
+@keyframes spin {0%{transform:scaleX(1)}50%{transform:scaleX(.04)}100%{transform:scaleX(1)}}
+.ring {transform-box:fill-box;transform-origin:center}
+.r1 {animation:rot 14s linear infinite} .r2 {animation:rot 22s linear infinite reverse}
+.blue .r1 {animation-duration:3s} .blue .r2 {animation-duration:5s}
+@keyframes rot {to{transform:rotate(360deg)}}
+.cap {font-family:ui-monospace,Menlo,Consolas,monospace;font-size:20px;fill:#8b949e;opacity:0}
+.c1 {animation:showg 12s infinite} .c2 {animation:showb 12s infinite}
+.c3 {animation:showg 12s infinite;animation-delay:0s}
+@keyframes c1k {0%,32%{opacity:1}36%,100%{opacity:0}}
+@keyframes c2k {0%,32%{opacity:0}36%,62%{opacity:1}66%,100%{opacity:0}}
+@keyframes c3k {0%,64%{opacity:0}68%,96%{opacity:1}100%{opacity:0}}
+.c1 {animation:c1k 12s infinite} .c2 {animation:c2k 12s infinite} .c3 {animation:c3k 12s infinite}
+@media (prefers-reduced-motion: reduce) {*{animation:none!important} .gold{opacity:1} .blue{opacity:0} .c1{opacity:1}}
+</style>
+<g class="ball"><g class="wrap">
+<g class="gold" fill="none" stroke="#ffd36b">
+  <circle r="96" fill="url(#ggold)" stroke="none" filter="url(#blur)"/>
+  <circle r="80" stroke="#ffb02e" stroke-width="2" opacity=".9"/>
+  <g stroke="#ffb02e" stroke-width="1.6" opacity=".75"><ellipse class="mer" cx="0" cy="0" rx="80" ry="80" style="animation-delay:-0.0s"/><ellipse class="mer" cx="0" cy="0" rx="80" ry="80" style="animation-delay:-0.5s"/><ellipse class="mer" cx="0" cy="0" rx="80" ry="80" style="animation-delay:-1.0s"/><ellipse class="mer" cx="0" cy="0" rx="80" ry="80" style="animation-delay:-1.5s"/><ellipse class="mer" cx="0" cy="0" rx="80" ry="80" style="animation-delay:-2.0s"/><ellipse class="mer" cx="0" cy="0" rx="80" ry="80" style="animation-delay:-2.5s"/></g>
+  <ellipse rx="80" ry="20" stroke="#ffb02e" stroke-width="1.6" opacity=".7"/>
+  <circle class="ring r1" r="104" stroke="#ffd36b" stroke-width="3" stroke-dasharray="40 24 8 24"/>
+  <circle class="ring r2" r="116" stroke="#ffb02e" stroke-width="2" stroke-dasharray="4 14"/>
+  <circle r="14" fill="#fff1c2" stroke="none"/>
+</g>
+<g class="blue" fill="none" stroke="#9fdcff">
+  <circle r="96" fill="url(#gblue)" stroke="none" filter="url(#blur)"/>
+  <circle r="80" stroke="#4db8ff" stroke-width="2" opacity=".9"/>
+  <g stroke="#4db8ff" stroke-width="1.6" opacity=".75"><ellipse class="mer" cx="0" cy="0" rx="80" ry="80" style="animation-delay:-0.0s"/><ellipse class="mer" cx="0" cy="0" rx="80" ry="80" style="animation-delay:-0.5s"/><ellipse class="mer" cx="0" cy="0" rx="80" ry="80" style="animation-delay:-1.0s"/><ellipse class="mer" cx="0" cy="0" rx="80" ry="80" style="animation-delay:-1.5s"/><ellipse class="mer" cx="0" cy="0" rx="80" ry="80" style="animation-delay:-2.0s"/><ellipse class="mer" cx="0" cy="0" rx="80" ry="80" style="animation-delay:-2.5s"/></g>
+  <ellipse rx="80" ry="20" stroke="#4db8ff" stroke-width="1.6" opacity=".7"/>
+  <circle class="ring r1" r="104" stroke="#9fdcff" stroke-width="3" stroke-dasharray="40 24 8 24"/>
+  <circle class="ring r2" r="116" stroke="#4db8ff" stroke-width="2" stroke-dasharray="4 14"/>
+  <circle r="14" fill="#e3f6ff" stroke="none"/>
+</g>
+</g></g>
+<text class="cap c1" x="360" y="318" text-anchor="middle">&gt; MOJO: Visitor detected. One moment...</text>
+<text class="cap c2" x="360" y="318" text-anchor="middle">&gt; MOJO: Pulling up Naman's file...</text>
+<text class="cap c3" x="360" y="318" text-anchor="middle">&gt; MOJO: Allow me to introduce my creator.</text>
+</svg>
