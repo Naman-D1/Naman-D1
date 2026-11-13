@@ -4,11 +4,11 @@
 
 </div>
 
-> **MOJO:** Welcome to Naman Sharma's profile. Allow me to introduce him.
+> **MOJO:** Welcome to Naman Sharma's profile. Allow me to introduce him. {I would say he needs no introduction, but he did write my script.}
 
 ## About Naman
 
-Naman is a third-year Computer Science student at MIT-WPU, Pune (class of 2028). He describes himself as an Indian dev with a hint of "I'm bored", and his motto is *"If it works, don't touch it."*
+Naman is a third-year Computer Science student at MIT-WPU, Pune (class of 2028). He describes himself as an Indian dev with a hint of "I'm bored", and his motto is *"If it works, don't touch it."* {The motto has been tested extensively, mostly by accident.}
 
 ## What he has built
 
@@ -32,12 +32,12 @@ Naman is a third-year Computer Science student at MIT-WPU, Pune (class of 2028).
 
 ## Off the clock
 
-Games, hardware tinkering, mechanical keyboards, and hand-drawn animation.
+Games, hardware tinkering, mechanical keyboards, and hand-drawn animation. I am told this is called a balanced lifestyle.
 
 ## Reaching him
 
-I would offer to call him myself, but that feature is still on the roadmap. Email is the reliable option:
+I would offer to call him myself, but that feature is still on the roadmap, somewhere behind "stop crashing". Email is the reliable option:
 
 📧 [namansh2005@gmail.com](mailto:namansh2005@gmail.com) · [All repositories →](https://github.com/Naman-D1?tab=repositories)
 
-<sub>Introduction delivered by MOJO. No visitors were harmed.</sub>
+<sub>Introduction delivered by MOJO. No visitors were harmed. Several were mildly impressed.</sub>
